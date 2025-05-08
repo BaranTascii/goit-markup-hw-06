@@ -138,7 +138,7 @@ address:hover, address:focus{
   height: 600px;
   text-align: center;
   padding-top: 188px;
-  padding bottom: 188px;
+  padding-bottom: 188px;
 }
 
 .main-header .container{
@@ -203,8 +203,6 @@ address:hover, address:focus{
 .feature {
   background-color: #ffffff;
   padding-top: 120px;
-  padding-left: 156px;
-  padding-right: 156px;
   margin-bottom: 120px;
 }
 
@@ -214,6 +212,7 @@ address:hover, address:focus{
   height: 104px;
   list-style-type: none;
   padding-left: 0;
+  justify-content: center;
 }
 
 .feature-icon{
@@ -252,7 +251,7 @@ address:hover, address:focus{
 .header3 {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1,2;
+  line-height: 1.2;
   letter-spacing: 2%;
   margin-bottom: 8px;
 }
@@ -356,7 +355,7 @@ address:hover, address:focus{
 
 .portfolio-list li:hover{
 cursor: pointer;
-box-shadow: 0px 2px 1px 0px #2E2F4214; 0px 1px 1px 0px #2E2F4229;
+box-shadow: 0px 2px 1px 0px #2E2F4214, 0px 1px 1px 0px #2E2F4229;
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -391,7 +390,7 @@ footer {
 
 .footer-text {
   font-size: 16px;
-  line-height: 1,5;
+  line-height: 1.5;
   letter-spacing: 2%;
   color: #f4f4fd;
 }
@@ -399,7 +398,7 @@ footer {
 .footer-text2{
   font-weight: 500;
   font-size: 16px;
-  line-height: 1,5;
+  line-height: 1.5;
   letter-spacing: 2%;
   color: #FFFFFF;
 }
