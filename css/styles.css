@@ -28,7 +28,7 @@ body {
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 auto;
 }
@@ -48,7 +48,7 @@ body {
 }
 
 .head-container {
-  width: 1158px;
+  max-width: 1158px;
   display: flex;
   gap: 20px;
   justify-content: space-between;
@@ -157,7 +157,7 @@ address:focus {
 
 .main-header .container {
   display: flex;
-  width: 1440px;
+  max-width: 1440px;
   height: 600px;
   margin-top: -188px;
   align-items: center;
@@ -215,6 +215,10 @@ address:focus {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.feature-section {
+  max-width: 1440px;
+}
+
 .feature {
   background-color: #ffffff;
   padding-top: 120px;
@@ -258,6 +262,10 @@ address:focus {
   margin-bottom: 72px;
 }
 
+.team-section {
+  max-width: 1440px;
+}
+
 .team {
   background-color: #f4f4fd;
   height: 732px;
@@ -273,6 +281,7 @@ address:focus {
 
 .team-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
   list-style-type: none;
   padding-left: 0;
@@ -358,7 +367,7 @@ address:focus {
   padding-left: 32px;
   top: 0;
   left: 0;
-  width: 360px;
+  max-width: 360px;
   height: 300px;
   transform: translateY(140%);
   transition: transform 250ms ease-in-out;
@@ -383,6 +392,10 @@ address:focus {
 footer {
   background-color: #2e2f42;
   height: 312px;
+}
+
+.footer-container {
+  max-width: 1440px;
 }
 
 .logo2 {
@@ -419,7 +432,7 @@ footer {
 .footer-child1 {
   display: flex;
   flex-direction: column;
-  width: 264px;
+  max-width: 264px;
   gap: 17.5px;
   padding-top: 101.5px;
   padding-bottom: 16px;
@@ -428,7 +441,7 @@ footer {
 .footer-child2 {
   display: flex;
   flex-direction: column;
-  width: 208px;
+  max-width: 208px;
   height: 80px;
   gap: 16px;
   margin-left: 384px;
@@ -456,7 +469,7 @@ footer {
 
 .footer-child-3 {
   display: flex;
-  width: 453px;
+  max-width: 453px;
   height: 80px;
   margin-left: 672px;
   margin-top: -85px;
@@ -547,7 +560,7 @@ footer {
 }
 
 .modal-content {
-  width: 408px;
+  max-width: 408px;
   height: 584px;
   border-radius: 4px;
   background-color: #fcfcfc;
@@ -617,7 +630,7 @@ footer {
   border: 1px solid #2e2f4266;
   border-radius: 4px;
   padding-left: 38px;
-  width: 360px;
+  max-width: 360px;
   height: 40px;
   outline: none;
 }
@@ -652,7 +665,7 @@ footer {
   padding-left: 16px;
   border: 1px solid #2e2f4266;
   border-radius: 4px;
-  width: 360px;
+  max-width: 360px;
   height: 120px;
   outline: none;
 }
