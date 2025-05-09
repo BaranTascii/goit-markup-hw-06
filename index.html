@@ -90,8 +90,8 @@
       <symbol id="icon-send-1" viewBox="0 0 38 32">
       <path fill="#fff" style="fill: var(--color1, #fff)" d="M38.4 0l-38.4 18 12.272 3.787 18.928-14.787-14.397 16.186 0.011 0.005-0.014-0.005v8.814l6.882-6.691 8.72 2.691 5.998-28z"></path>
       </symbol>
-      <symbol id="icon-hamburger-menu" viewBox="0 0 32 32">
-      <path d="M4.8 8c0-0.884 0.716-1.6 1.6-1.6h19.2c0.884 0 1.6 0.716 1.6 1.6s-0.716 1.6-1.6 1.6h-19.2c-0.884 0-1.6-0.716-1.6-1.6v0zM4.8 16c0-0.884 0.716-1.6 1.6-1.6h19.2c0.884 0 1.6 0.716 1.6 1.6s-0.716 1.6-1.6 1.6h-19.2c-0.884 0-1.6-0.716-1.6-1.6v0zM4.8 24c0-0.884 0.716-1.6 1.6-1.6h19.2c0.884 0 1.6 0.716 1.6 1.6s-0.716 1.6-1.6 1.6h-19.2c-0.884 0-1.6-0.716-1.6-1.6v0z"></path>
+      <symbol id="icon-hamburger-1" viewBox="0 0 32 32">
+      <path d="M4.8 8c0-0.884 0.716-1.6 1.6-1.6v0h19.2c0.884 0 1.6 0.716 1.6 1.6s-0.716 1.6-1.6 1.6v0h-19.2c-0.884 0-1.6-0.716-1.6-1.6v0zM4.8 16c0-0.884 0.716-1.6 1.6-1.6v0h19.2c0.884 0 1.6 0.716 1.6 1.6s-0.716 1.6-1.6 1.6v0h-19.2c-0.884 0-1.6-0.716-1.6-1.6v0zM4.8 24c0-0.884 0.716-1.6 1.6-1.6v0h19.2c0.884 0 1.6 0.716 1.6 1.6s-0.716 1.6-1.6 1.6v0h-19.2c-0.884 0-1.6-0.716-1.6-1.6v0z"></path>
       </symbol>
       </defs>
       </svg>      
@@ -115,67 +115,65 @@
         </nav>
         <div class="container-child">
         <address>
-          <a class="text" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
+          <a class="text" href="mailto:info@devstudio.com">info@devstudio.com</a>
           <a class="text" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
         </address>
-        
-        <!-- Mobile Hamburger Menu -->  
-         <svg class="hamburger-menu-icon">
-          <use xlink:href="icon-hamburger-menu"></use>
-         </svg>
+        </div>
+
+        <!-- Mobile Hamburger Menu -->
+        <div class="hamburger-menu-icon-container"> 
+        <svg class="hamburger-menu-icon">
+          <use xlink:href="#icon-hamburger-1"></use>
+        </svg>
+        </div>
 
          <!-- Mobile Menu -->
-         <div class="hamburger-menu">
+         
+         <div class="hamburger-menu ">
+          <div class="hamburger-menu-box">
+             <div class="hamburger-close-container">
+            <svg class="hamburger-close-icon">
+              <use xlink:href="#icon-vector-1"></use>
+            </svg>
+          </div>
           <nav class="hamburger-menu-nav">
-            <ul class="hamburger-manu-nav-list">
+            <ul class="hamburger-manu-list">
               <li class="hamburger-menu-list-item">
-                <a class="hamburger-nav-link" href="#studio" >Studio</a>
+                <a class="hamburger-nav-link" href="#studio">Studio</a>
               </li>
               <li class="hamburger-menu-list-item">
-                <a class="hamburger-nav-link" href=".#portfolio" >Portfolio</a>
+                <a class="hamburger-nav-link" href=".#portfolio">Portfolio</a>
               </li>
               <li class="hamburger-menu-list-item">
-                <a class="hamburger-nav-link" href="#contacts" >Contacts</a>
+                <a class="hamburger-nav-link" href="#contacts">Contacts</a>
               </li>
             </ul>
+            </nav>
+            <div class="hamburger-contacts">
             <address class="hamburger-menu-contacts">
-              <ul class="hamburger-menu-contacts-list">
-                <li>
                   <a href="tel:+110001111111" class="hamburger-menu-contacts">
                     +11 (000) 111-11-11
                   </a>
-                </li>
-                <li>
                   <a href="mailto:info@devstudio.com" class="hamburger-menu-contacts">
                     info@devstudio.com
                   </a>
-                </li>
-              </ul>
-              </nav>
             </address>
-            <ul class="hamburger-social-icons-container">
-              <li class="social-icons-list">
+            </div>
+            <div class="hamburger-social-links">
                 <a href="https://www.instagram.com" target="_blank" class="social-link">
                   <svg class="social-icon"><use xlink:href="#icon-instagram-2"></use></svg></a>
-              </li>
-              <li class="social-icons-list">
                 <a href="https://www.twitter.com" target="_blank" class="social-link">
                   <svg class="social-icon"><use xlink:href="#icon-twitter-1"></use></svg></a>
-              </li>
-              <li class="social-icons-list">
                 <a href="https://www.facebook.com" target="_blank" class="social-link">
                   <svg class="social-icon"><use xlink:href="#icon-facebook-1"></use></svg></a>
-              </li>
-              <li class="social-icons-list">
                 <a href="https://www.linkedin.com" target="_blank" class="social-link">
                   <svg class="social-icon"><use xlink:href="#icon-linkedin-1"></use></svg></a>
-              </li>
-            </ul>
-          </div>
-          </div>
+            </div>
+            </div>
+            </div>
     </header>
+
+    <!-- Modal -->
     <div class="modal ">
       <div class="modal-content">
         <form class="modal-form">
