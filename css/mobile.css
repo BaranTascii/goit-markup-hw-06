@@ -1,5 +1,4 @@
 @media (min-width: 320px) and (max-width: 767px) {
-
   .hamburger-menu {
     display: none;
     position: fixed;
@@ -17,40 +16,107 @@
     display: flex;
   }
 
+  .top-line {
+    align-items: center;
+    height: 56px;
+  }
+
   .nav-list {
     display: none;
   }
-
   address {
     display: none;
   }
 
-  address {
-    border: 1px solid red;
+  .main-header {
+    height: 432px;
+    margin-bottom: 143px;
   }
 
-  .head-container {
+  .header1 {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 2%;
+    width: 100%;
+    top: 128px;
+    left: 0;
+    text-align: center;
+    padding: 0 16px;
+  }
+
+  .button1 {
     position: relative;
+    top: 160px;
+    left: 0;
+    margin: 0 auto;
   }
 
-  .hamburger-menu-icon-container {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 24px;
-  height: 24px;
+  .feature-icon {
+    display: none;
   }
 
-  .hamburger-menu-icon {
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  fill: #2e2f42;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .feature .container{
+    max-width: 100%;
+    height: 696px;
   }
-  
 
-  
+  .feature-list {
+    padding-top: 340px;    
+    flex-direction: column;
+    gap: 72px;
+    align-items: center;
+    justify-content: center;
+  }
 
+  .feature-list .header3 {
+    display: flex;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 2%;
+    padding-left: 16px;
+    justify-content: center;
+  }
+
+  .feature-list .text {
+    display: flex;
+    padding-left: 16px;
+    justify-content: center;
+  }
+
+  .team-section .container {
+    margin-top: -164px;
+    }
+
+  .team-list { 
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-section .container {
+    padding-top: 96px;
+  }
+
+  .portfolio-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 16px;
+    height: auto;
+  }
+
+  .footer-child2,
+  .footer-child-3 {
+    margin-left: 0;
+    margin-top: 32px;
+  }
+
+  .footer-child-3 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
 }

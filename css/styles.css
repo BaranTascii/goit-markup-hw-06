@@ -264,12 +264,10 @@ address:focus {
 
 .team-section {
   max-width: 1440px;
-}
-
-.team {
   background-color: #f4f4fd;
   height: 732px;
 }
+
 
 .header3 {
   font-weight: 500;
@@ -281,7 +279,6 @@ address:focus {
 
 .team-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
   list-style-type: none;
   padding-left: 0;
