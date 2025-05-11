@@ -82,7 +82,6 @@ body {
   gap: 40px;
   list-style-type: none;
   margin-left: -200px;
-  height: 70px;
   align-items: center;
 }
 
@@ -149,10 +148,8 @@ address:focus {
 }
 
 .main-header {
-  height: 600px;
   text-align: center;
   padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 .main-header .container {
@@ -215,23 +212,17 @@ address:focus {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.feature-section {
-  max-width: 1440px;
-}
-
 .feature {
+  max-width: 1440px;
   background-color: #ffffff;
-  padding-top: 120px;
-  margin-bottom: 120px;
+  margin-top: -96px;
 }
 
 .feature-list {
   display: flex;
   gap: 24px;
-  height: 104px;
   list-style-type: none;
   padding-left: 0;
-  justify-content: center;
 }
 
 .feature-icon {
@@ -265,7 +256,8 @@ address:focus {
 .team-section {
   max-width: 1440px;
   background-color: #f4f4fd;
-  height: 732px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 
@@ -388,11 +380,12 @@ address:focus {
 
 footer {
   background-color: #2e2f42;
-  height: 312px;
 }
 
 .footer-container {
   max-width: 1440px;
+  min-height: 312px;
+  padding-bottom: 100px;
 }
 
 .logo2 {
@@ -439,10 +432,9 @@ footer {
   display: flex;
   flex-direction: column;
   max-width: 208px;
-  height: 80px;
   gap: 16px;
   margin-left: 384px;
-  margin-top: -100px;
+  margin-top: -131.5px;
 }
 .footer-icon {
   display: flex;
@@ -467,7 +459,6 @@ footer {
 .footer-child-3 {
   display: flex;
   max-width: 453px;
-  height: 80px;
   margin-left: 672px;
   margin-top: -85px;
   gap: 24px;
