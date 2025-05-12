@@ -213,9 +213,10 @@ address:focus {
 }
 
 .feature {
-  max-width: 1440px;
   background-color: #ffffff;
   margin-top: -96px;
+  justify-content: center;
+  align-items: center;
 }
 
 .feature-list {
@@ -254,7 +255,6 @@ address:focus {
 }
 
 .team-section {
-  max-width: 1440px;
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
@@ -273,14 +273,14 @@ address:focus {
   display: flex;
   gap: 24px;
   list-style-type: none;
-  padding-left: 0;
+  justify-content: center;
+  text-align: center;
 }
 
 .team-list li {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
   padding-bottom: 32px;
-  text-align: center;
   box-shadow: 0px 0px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229;
 }
 
@@ -383,7 +383,6 @@ footer {
 }
 
 .footer-container {
-  max-width: 1440px;
   min-height: 312px;
   padding-bottom: 100px;
 }
@@ -422,7 +421,6 @@ footer {
 .footer-child1 {
   display: flex;
   flex-direction: column;
-  max-width: 264px;
   gap: 17.5px;
   padding-top: 101.5px;
   padding-bottom: 16px;
@@ -431,7 +429,6 @@ footer {
 .footer-child2 {
   display: flex;
   flex-direction: column;
-  max-width: 208px;
   gap: 16px;
   margin-left: 384px;
   margin-top: -131.5px;
@@ -456,9 +453,8 @@ footer {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-child-3 {
+.footer-child3 {
   display: flex;
-  max-width: 453px;
   margin-left: 672px;
   margin-top: -85px;
   gap: 24px;
@@ -507,7 +503,6 @@ footer {
 
 .footer-button-container {
   padding-top: 38px;
-  max-width: 165px;
 }
 
 .footer-button:hover {
@@ -735,7 +730,6 @@ footer {
   letter-spacing: 4%;
   padding-left: -30px;
   color: #ffffff;
-  gap: 16px;
   padding-left: 24px;
   align-items: center;
 }
