@@ -28,9 +28,18 @@
     display: none;
   }
 
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
   .main-header {
     height: 432px;
     margin-bottom: 143px;
+  }
+
+  .header-bg {
+    background-position: center center;
   }
 
   .header1 {
@@ -41,7 +50,7 @@
     top: 128px;
     left: 0;
     text-align: center;
-    padding: 0 16px;
+    padding: 0 52px;
   }
 
   .button1 {
@@ -75,7 +84,7 @@
   .feature-list .text {
     display: flex;
     padding-left: 16px;
-    justify-content: center;
+    padding-right: 16px;
   }
 
   .team-section {
@@ -99,8 +108,14 @@
   }
 
   .portfolio-list {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 48px;
+  }
+
+  .portfolio-list img {
+    max-width: 288px;
   }
 
   .footer-child1 {
