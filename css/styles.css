@@ -119,6 +119,7 @@ address {
   gap: 40px;
   padding-right: 10px;
   justify-content: flex-end;
+  color: #434455;
 }
 
 address:hover,
@@ -164,6 +165,12 @@ address:focus {
 .header-bg {
   background-image: url(../images/people-office\ 1.jpg);
   position: relative;
+}
+
+@media (min-resolution: 2x) {
+  .header-bg {
+    background-image: url(../images/people-office@2.jpg);
+  }
 }
 
 .header-color {
@@ -549,7 +556,7 @@ footer {
 }
 
 .modal-content {
-  max-width: 408px;
+  width: 408px;
   height: 584px;
   border-radius: 4px;
   background-color: #fcfcfc;
