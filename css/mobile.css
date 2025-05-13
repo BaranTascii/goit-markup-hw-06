@@ -183,9 +183,27 @@
   }
 
   .modal-content-head {
-    padding-top: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 256px;
+    text-align: center;
+    padding-top: 24px;
     padding-left: 16px;
   }
+
+  .close-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  top: 24px;
+  right: 56px;
+  border-radius: 50%;
+  background-color: #e7e9fc;
+  border: 1px solid #0000001a;
+}
 
   .modal-form-input {
     border: 1px solid #2e2f4266;
