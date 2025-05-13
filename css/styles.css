@@ -552,10 +552,12 @@ footer {
   position: relative;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 8px;
 }
 
 .modal-content {
+  position: relative;
   width: 408px;
   height: 584px;
   border-radius: 4px;
@@ -566,6 +568,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .close-container {
@@ -573,8 +576,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 24px;
-  right: 24px;
   width: 24px;
   height: 24px;
   border-radius: 50%;
@@ -607,9 +608,6 @@ footer {
   line-height: 24px;
   letter-spacing: 2%;
   color: #2e2f42;
-  padding-top: 72px;
-  padding-left: 24px;
-  padding-bottom: 8px;
 }
 
 .modal-form-text {
@@ -626,7 +624,7 @@ footer {
   border: 1px solid #2e2f4266;
   border-radius: 4px;
   padding-left: 38px;
-  max-width: 360px;
+  width: 360px;
   height: 40px;
   outline: none;
 }
@@ -661,7 +659,7 @@ footer {
   padding-left: 16px;
   border: 1px solid #2e2f4266;
   border-radius: 4px;
-  max-width: 360px;
+  width: 360px;
   height: 120px;
   outline: none;
 }
@@ -755,7 +753,7 @@ footer {
 .modal-form-button-container {
   padding-top: 16px;
   padding-left: 95px;
-  max-width: 360px;
+  width: 360px;
 }
 
 .modal-form-button:hover {
