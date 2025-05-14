@@ -29,8 +29,6 @@
   .hamburger-close-container {
     position: absolute;
     display: flex;
-    align-items: center;
-    justify-content: center;
     top: 24px;
     right: 24px;
     width: 24px;
@@ -44,6 +42,8 @@
     position: absolute;
     width: 8px;
     height: 8px;
+    margin-left: 3px;
+    margin-top: 2px;
     fill: #2e2f42;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
