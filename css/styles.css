@@ -546,7 +546,7 @@ footer {
   background-color: #2e2f4266;
   z-index: 10;
   justify-content: center;
-  align-items: center;
+  align-items: center;      
 }
 
 .is-open {
@@ -565,6 +565,7 @@ footer {
   position: relative;
   width: 408px;
   height: 584px;
+  top: -100px;
   border-radius: 4px;
   background-color: #fcfcfc;
   z-index: 11;
@@ -573,7 +574,6 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .close-container {

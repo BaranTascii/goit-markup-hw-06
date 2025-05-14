@@ -3,14 +3,18 @@
     display: none;
   }
 
+  .modal-content {
+    margin-top: 140px;
+  }
+
   .container {
     padding: 0 32px;
   }
 
  .top-line {
     flex-wrap: wrap;
-    height: auto;
-    padding: 24px 32px;
+    margin: 0 auto;
+    align-items: center;
   }
 
   .head-container {
@@ -25,7 +29,6 @@
     justify-content: center;
     gap: 24px;
     padding-left: 0;
-    display: flex;
     width: 100%;
   }
 
