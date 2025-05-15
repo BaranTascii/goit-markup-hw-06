@@ -1,5 +1,4 @@
 @media (min-width: 320px) and (max-width: 767px) {
-
   /* Hamburger Menu */
   .hamburger-menu {
     display: none;
@@ -146,7 +145,7 @@
     height: 14.4;
     top: 4.8px;
     left: 3.6px;
-    fill: #2f2f37; 
+    fill: #2f2f37;
   }
 
   ..hamburger-close-icon:hover {
@@ -199,18 +198,18 @@
   }
 
   .close-container {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 24px;
-  height: 24px;
-  top: 24px;
-  right: 56px;
-  border-radius: 50%;
-  background-color: #e7e9fc;
-  border: 1px solid #0000001a;
-}
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    top: 24px;
+    right: 56px;
+    border-radius: 50%;
+    background-color: #e7e9fc;
+    border: 1px solid #0000001a;
+  }
 
   .modal-form-input {
     border: 1px solid #2e2f4266;
@@ -358,7 +357,7 @@
     align-items: center;
   }
 
-   /* Portfolio */
+  /* Portfolio */
   .portfolio {
     padding-top: 96px;
     padding-bottom: 0;
