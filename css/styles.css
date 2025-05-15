@@ -403,8 +403,13 @@ footer {
 }
 
 .footer-container {
-  min-height: 312px;
   padding-bottom: 100px;
+}
+
+.footer-container .container {
+  justify-content: center;
+  align-items: center;
+  max-width: 1125px;
 }
 
 .logo2 {
