@@ -1,4 +1,6 @@
 @media (min-width: 320px) and (max-width: 767px) {
+
+  /* Hamburger Menu */
   .hamburger-menu {
     display: none;
     position: fixed;
@@ -152,6 +154,7 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
+  /* Modal */
   .modal {
     display: none;
     position: fixed;
@@ -275,6 +278,7 @@
     max-width: 100%;
   }
 
+  /* Header */
   .main-header {
     height: 432px;
     margin-bottom: 143px;
@@ -302,6 +306,7 @@
     margin: 0 auto;
   }
 
+  /* Features */
   .feature-icon {
     display: none;
   }
@@ -338,6 +343,7 @@
     justify-content: center;
   }
 
+  /* Team */
   .team-section {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -352,6 +358,7 @@
     align-items: center;
   }
 
+   /* Portfolio */
   .portfolio {
     padding-top: 96px;
     padding-bottom: 0;
@@ -369,6 +376,7 @@
     max-width: 288px;
   }
 
+  /* Footer */
   .footer-child1 {
     display: flex;
     padding: 0;

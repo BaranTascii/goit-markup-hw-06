@@ -11,7 +11,8 @@
     padding: 0 32px;
   }
 
- .top-line {
+  /* Top Line */
+  .top-line {
     flex-wrap: wrap;
     margin: 0 auto;
     align-items: center;
@@ -24,7 +25,7 @@
     gap: 24px;
   }
 
-   .nav-list {
+  .nav-list {
     margin-left: 0;
     justify-content: center;
     gap: 24px;
@@ -38,6 +39,7 @@
     align-items: flex-end;
   }
 
+  /* Header */
   .main-header .container {
     height: 436px;
     margin-top: -188px;
@@ -50,7 +52,6 @@
     background-size: cover;
   }
 
-
   .header1 {
     font-size: 40px;
     line-height: 1.1;
@@ -62,12 +63,13 @@
     padding: 0 16px;
   }
 
- .button1 {
+  .button1 {
     top: 270px;
     left: 50%;
     transform: translateX(-50%);
   }
 
+  /* Features */
   .feature-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -84,8 +86,8 @@
     width: calc((100% - 24px) / 2);
     max-width: 356px;
   }
-
-   .team-icon {
+  /* Team */
+  .team-icon {
     margin-left: auto;
     margin-right: auto;
   }
@@ -118,12 +120,11 @@
     max-width: 360px;
   }
 
+  /* Footer */
   .footer-container {
     padding: 0;
     margin: 0;
   }
-
-  /* Footer */
   .footer-container .container {
     position: relative;
     display: flex;
@@ -134,23 +135,22 @@
     height: 456px;
   }
   .footer-child1 {
-  position: absolute;
-  margin-top: -235px;
-  margin-left: -245px;
-}
+    position: absolute;
+    margin-top: -235px;
+    margin-left: -245px;
+  }
 
-.footer-child2 {
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  padding-left: 288px;
-  margin-top: -180px;
-}
+  .footer-child2 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    padding-left: 288px;
+    margin-top: -180px;
+  }
 
-.footer-child3 {
-  position: absolute;
-  margin: 0;
-  margin-left: -40px;
-  padding-top: 180px;
-}
+  .footer-child3 {
+    margin: 0;
+    margin-left: -40px;
+    padding-top: 180px;
+  }
 }

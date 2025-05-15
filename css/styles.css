@@ -38,6 +38,7 @@ body {
   padding-bottom: 120px;
 }
 
+/* Top Line */
 .top-line {
   display: flex;
   margin: 0 auto;
@@ -128,15 +129,16 @@ address:focus {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Hamburger Menu */
 .hamburger-menu {
- display: none;
-}
-
-.hamburger-close-container{
   display: none;
 }
 
-.hamburger-menu-icon-container{
+.hamburger-close-container {
+  display: none;
+}
+
+.hamburger-menu-icon-container {
   display: none;
 }
 
@@ -148,6 +150,7 @@ address:focus {
   color: #434455;
 }
 
+/* Header */
 .main-header {
   text-align: center;
   padding-top: 188px;
@@ -160,10 +163,6 @@ address:focus {
   margin-top: -188px;
   align-items: center;
   justify-content: center;
-}
-
-.hamburger-menu {
-  display: none;
 }
 
 .header-bg {
@@ -223,6 +222,7 @@ address:focus {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Features */
 .feature {
   background-color: #ffffff;
   margin-top: -96px;
@@ -265,12 +265,12 @@ address:focus {
   margin-bottom: 72px;
 }
 
+/* Team */
 .team-section {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
 
 .header3 {
   font-weight: 500;
@@ -320,12 +320,12 @@ address:focus {
 }
 
 .team-list .social-link:hover {
-  background-color: #404BBF;
+  background-color: #404bbf;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon {
-  fill: #F4F4FD;
+  fill: #f4f4fd;
   width: 16px;
   height: 16px;
   margin: auto;
@@ -336,6 +336,7 @@ address:focus {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Portfolio */
 .portfolio-list {
   list-style-type: none;
   display: flex;
@@ -396,6 +397,7 @@ address:focus {
   margin-bottom: 120px;
 }
 
+/* Footer */
 footer {
   background-color: #2e2f42;
 }
@@ -492,7 +494,9 @@ footer {
   border-radius: 4px;
   padding-left: 16px;
   margin-top: 14px;
+  color: #FFFFFF;
   background-color: #2e2f42;
+  outline: none;
   border: 1px solid #ffffff;
   box-shadow: 0px 4px 4px 0px #00000026;
 }
@@ -505,6 +509,7 @@ footer {
 }
 
 .footer-button {
+  display: flex;
   position: relative;
   width: 165px;
   height: 40px;
@@ -515,6 +520,8 @@ footer {
   cursor: pointer;
   border: none;
   border-radius: 4px;
+  padding-left: -30px;
+  align-items: center;
   color: #ffffff;
   background-color: #4d5ae5;
 }
@@ -530,12 +537,14 @@ footer {
 }
 
 .footer-button-icon {
-  fill: #FFFFFF;
+  fill: #ffffff;
   position: absolute;
   width: 24px;
   height: 20px;
+  margin-left: 93px;
 }
 
+/* Modal */
 .modal {
   display: none;
   position: fixed;
@@ -546,7 +555,7 @@ footer {
   background-color: #2e2f4266;
   z-index: 10;
   justify-content: center;
-  align-items: center;      
+  align-items: center;
 }
 
 .is-open {
@@ -745,19 +754,6 @@ footer {
   background-color: #4d5ae5;
 }
 
-.footer-button {
-  display: flex;
-  position: relative;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 4%;
-  padding-left: -30px;
-  color: #ffffff;
-  padding-left: 24px;
-  align-items: center;
-}
-
 .modal-form-button-container {
   padding-top: 16px;
   padding-left: 95px;
@@ -769,9 +765,3 @@ footer {
   box-shadow: 0px 4px 4px 0px #00000026;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-button-icon {
-  position: absolute;
-  margin-left: 93px;
-}
-
